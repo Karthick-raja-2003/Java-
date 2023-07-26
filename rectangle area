@@ -1,25 +1,27 @@
-import java.util.*;
-import java.util.scanner;
-class add{
-{
-int length,breadth,area;
-void display()
-{
-System.out.println("program is executed");
+import java.util.Scanner;
+
+class Add {
+    int length, breadth, area;
+
+    void display() {
+        System.out.println("Program is executed");
+    }
 }
-}
-class rectangle
-{
-public static void main(String[]args)
-{
-addr1=new add();
-Scanner input=new.Scanner(System.in);
-System.out.println("enter the length:");
-r1.length=input.nextInt();
-System.out.println("enter the breadth:");
-r1.breadth=input.nextInt();
-r1.area=r1.length*r1.breadth;
-System.out.println("area of the rectangle;"+area);
-r1.display():
-}
+
+public class Rectangle {
+    public static void main(String[] args) {
+        Add r1 = new Add();
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter the length:");
+        r1.length = input.nextInt();
+
+        System.out.println("Enter the breadth:");
+        r1.breadth = input.nextInt();
+
+        r1.area = r1.length * r1.breadth;
+        System.out.println("Area of the rectangle: " + r1.area);
+
+        r1.display();
+    }
 }
